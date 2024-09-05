@@ -9,6 +9,6 @@ export interface FetchResponse<T> {
 export default axios.create({
   baseURL: "https://api.rawg.io/api",
   params: {
-    key: process.env.GAME_HUB_API_KEY,
+    key: "9cb27d142dba4ad4a1caa5a44195f0b2",
   },
 });
